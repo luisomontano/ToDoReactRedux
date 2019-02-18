@@ -6,7 +6,7 @@ import ToDoList from './ToDoList'
 const styles = {
     ToDoCard: {
         background: 'white',
-        height: '300px',
+        height: 'auto',
         width: '600px',
         margin: '3em auto',
         border: '1px solid gray',
@@ -27,7 +27,7 @@ class ToDo extends React.Component {
     render(){
         return(
             <div style={styles.ToDoCard}>
-                <ToDoBox style={styles.box} />
+                <ToDoBox/>
                 <ToDoList />
             </div>
         )

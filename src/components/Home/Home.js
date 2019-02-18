@@ -9,7 +9,6 @@ const styles = {
     card: {
         minWidth: 275,
         margin: '20% 10%',
-        border: '0.5px solid gray',
         borderRadius: '20px'
     },
     title: {
